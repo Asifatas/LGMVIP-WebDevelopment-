@@ -7,10 +7,13 @@
 
 }
 body{
-    background: #f5f5f5;
+background-image: url("Front_banner_background-2048x819.jpg");
+ width: 100%; height: 100%;
+    background-color: rgba(255, 255, 128, .5);;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:top;
+    align-items:center;
+
     flex-direction: column;
     height: 100vh;
     width: 100vw;
@@ -21,7 +24,8 @@ body{
     font-weight: 600;
     color: midnightblue;
     initial-letter: 1px;
-    margin: 30px 0;
+    margin: 30px 70px;
+    padding-left: 700px;
 }
 
 .list-head{
@@ -33,6 +37,7 @@ body{
 }
 
 .todo-list{
+    margin-left: 700px ;
     width: 600px;
     height: auto;
     box-shadow: rgba(0, 0, 0, 0.1);
